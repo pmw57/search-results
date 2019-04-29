@@ -1,0 +1,43 @@
+// https://webpack.js.org/plugins/mini-css-extract-plugin/
+// https://github.com/NMFR/optimize-css-assets-webpack-plugin
+// https://hackernoon.com/a-tale-of-webpack-4-and-how-to-finally-configure-it-in-the-right-way-4e94c8e7e5c1
+
+
+
+
+
+
+
+
+
+
+
+
+### On shimming
+
+- https://webpack.js.org/guides/shimming/
+- https://gist.github.com/xjamundx/b1c800e9282e16a6a18e
+- https://webpack.js.org/concepts/loaders/#loader-features
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### update 
+https://stackoverflow.com/questions/28969861/managing-jquery-plugin-dependency-in-webpack/28989476#28989476
+
+https://survivejs.com/webpack/techniques/testing/
+https://what-problem-does-it-solve.com/webpack/third_party_libs.html

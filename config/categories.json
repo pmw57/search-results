@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Fruits",
+    "items": [
+      {"name": "Apples", "code": "1001"},
+      {"name": "Blackberries", "code": "289"},
+      {"name": "Raspberries", "code": "rasp-1234"}
+    ]
+  },
+  {
+    "title": "Vegetables",
+    "items": [
+      {"name": "Beets", "code": "123"},
+      {"name": "Eggplant", "code": "124"},
+      {"name": "Spinach", "code": "125"}
+    ]
+  },
+  {
+    "title": "Nuts",
+    "items": [
+      {"name": "Almonds", "code": "126"},
+      {"name": "Pecans", "code": "127"},
+      {"name": "Walnuts", "code": "128"}
+    ]
+  },
+  {
+    "title": "Meats",
+    "items": [
+      {"name": "Chicken", "code": "129"},
+      {"name": "Fish", "code": "130"},
+      {"name": "Turkey", "code": "131"}
+    ]
+  }
+]

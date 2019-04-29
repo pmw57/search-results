@@ -1,0 +1,40 @@
+INSTALL
+=======
+
+Node (which now comes with NPM) is required for the local server.
+
+Node LTS: https://nodejs.org/en/download/
+
+
+Use 'npm install' from the command prompt to install the needed modules.
+
+C:\Users\Path\search-results> npm install
+
+
+Also, add a setting to help wtih pathing issues.
+
+C:\Users\Path\search-results> npm config set scripts-prepend-node-path true
+
+USAGE
+=====
+
+Use 'npm start' to start the local server:
+
+C:\Users\Path\search-results> npm start
+
+Your default web browser will then load the local server at http://localhost:5000
+
+
+Use 'npm test' to run the tests:
+
+C:\Users\Path\search-results> npm test
+
+
+Errors
+======
+
+If NPM can't be found, or if when starting the server there is an error of:
+"SyntaxError: Unexpected Token", you need to get an up to date version of Node.
+
+Install Node LTS from https://nodejs.org/en/download/
+

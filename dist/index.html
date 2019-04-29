@@ -1,0 +1,18 @@
+<!doctype html> <html> <head> <meta charset=utf-8> <title>Search results</title> <link href="css/searchresults.css?e1cf74c00b1d635047bf" rel="stylesheet"></head> <body> <form id=search> <p><input type=text id=categorysearch placeholder="Search Foods" autocomplete=off></p> </form> <p>Categories to toggle</p> <div id=categories> <script id=category-template type=x-tmpl-mustache> {{#category}}
+  <p><input type="checkbox" id="chk{{index}}" value="result{{index}}">
+    <label for="chk{{index}}">{{title}}</label></p>
+{{/category}} </script> </div> <p id=clearAll>Results: <button class=clearAll>Clear all results</button></p> <script id=result-template type=x-tmpl-mustache> {{#results}}
+  <div class="result" id="result{{index}}">
+    <div class='sidebar'>
+      <button class='close'>X</button>
+    </div>
+    <div class="content">
+      <p>{{title}}</p>
+      <ol>
+      {{#food}}
+        <li data-code="{{code}}">{{name}}</li>
+      {{/food}}
+      </ol>
+    </div>
+  </div>
+{{/results}} </script> <script type="text/javascript" src="js/searchresults.js?e1cf74c00b1d635047bf"></script></body> </html> 
